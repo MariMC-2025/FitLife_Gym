@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planes - FitLife Gym</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="Estilos/estilo.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="Imagenes/Logo.png" class="Logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="planes.html">Planes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="galeria.html">Galería</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <section class="bg-dark py-5 planes-section">
+            <div class="container">
+
+                <div class="row mb-5 text-center">
+                    <div class="col-12">
+                        <h2 class="fw-bold text-white">Nuestros Planes</h2>
+                        <p class="text-light">Elige tu camino hacia el dominio físico y mental.</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+
+                    <div class="col-md-4">
+                        <div class="card bg-black text-center shadow h-100 p-3">
+                            <img src="Imagenes/Bronce.PNG" class="card-img-top card-img-fixed" alt="Plan Bronce">
+                            <div class="card-body">
+                                <h5 class="fw-bold text-white">Plan Bronce</h5>
+                                <h3 class="text-warning fw-bold">$399 / mes</h3>
+                                <p class="text-light">
+                                    Acceso al área de pesas y cardio y entrenamientos grupales.
+                                </p>
+                                <a href="#formulario" class="btn btn-warning w-100">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-black text-center shadow h-100 p-3">
+                            <img src="Imagenes/Plata.PNG" class="card-img-top card-img-fixed" alt="Plan Plata">
+                            <div class="card-body">
+                                <h5 class="fw-bold text-white">Plan Plata</h5>
+                                <h3 class="text-warning fw-bold">$599 / mes</h3>
+                                <p class="text-light">
+                                    Incluye clases grupales y tambien asesoría nutricional.
+                                </p>
+                                <a href="#formulario" class="btn btn-warning w-100">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-black text-center shadow h-100 p-3">
+                            <img src="Imagenes/Oro.PNG" class="card-img-top card-img-fixed" alt="Plan Oro">
+                            <div class="card-body">
+                                <h5 class="fw-bold text-white">Plan Oro</h5>
+                                <h3 class="text-warning fw-bold">$899 / mes</h3>
+                                <p class="text-light">
+                                    Acceso total, entrenador personal y plan nutricional avanzado.
+                                </p>
+                                <a href="#formulario" class="btn btn-warning w-100">Inscribirse</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row justify-content-center mt-5" id="formulario">
+                    <div class="col-lg-6">
+
+                        <div class="card bg-black p-4 shadow">
+
+                            <h3 class="text-center text-white mb-4">
+                                <i class="bi bi-pencil-square me-2"></i>Formulario de Inscripción
+                            </h3>
+
+                            <form>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-white">
+                                        <i class="bi bi-person-fill me-2"></i>Nombre
+                                    </label>
+                                    <input type="text" class="form-control" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-white">
+                                        <i class="bi bi-envelope-fill me-2"></i>Correo
+                                    </label>
+                                    <input type="email" class="form-control" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label class="form-label text-white">
+                                        <i class="bi bi-award-fill me-2"></i>Selecciona tu Plan
+                                    </label>
+                                    <select class="form-control">
+                                        <option>Plan Bronce</option>
+                                        <option>Plan Plata</option>
+                                        <option>Plan Oro</option>
+                                    </select>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-warning px-4">
+                                        <i class="bi bi-check-circle-fill me-2"></i>Confirmar Inscripción
+                                    </button>
+                                </div>
+
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-black text-white text-center py-3">
+        <p class="mb-0">© 2026 FitLife Gym</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

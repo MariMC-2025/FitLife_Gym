@@ -1,0 +1,12 @@
+
+# Instaladores
+*.exe
+*.msi
+
+# Archivos comprimidos
+*.zip
+*.rar
+
+# Archivos temporales
+*.tmp
+*.log
